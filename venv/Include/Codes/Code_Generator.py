@@ -16,8 +16,7 @@ for i in BASIS[0:15]:
                     Gen.append(code)
 print(len(Gen))
 random.shuffle(Gen)
-f = open("Codes.txt", "w")
-for i in Gen:
-    f.write(i)
-    f.write("\n")
-f.close()
+with open("Codes.txt", "w") as f:
+    for i in Gen:
+        f.write(i)
+        f.write("\n")
