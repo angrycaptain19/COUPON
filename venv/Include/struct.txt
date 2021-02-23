@@ -1,0 +1,37 @@
+abt 1M coupon codes
+
+input from user ->  arg[]
+
+coupon maintance
+
+coupons [ customer name, customer email, location of complaint, available balance,  initial balance, number of transactions, date of creation, average transaction, validating manager, comments ]
+
+functions:
+
+generate coupon
+remove funcds
+    v1
+        inputs (curent balance, new transaction)
+        outpurs (new current balance, nb of transactions, avg transaction value)
+    v2
+        migrate v1 to coupon datastruct
+send email for creation
+send email for use (you have x left)
+function validates if the coupon can be used for purchase
+validate if still active
+validate location
+ouput on a slack chanel the usages of coupons
+
+stats:
+
+avg redemption
+avg init funds
+list of stores with most complaints
+list of stores with most complaints  (order weighted)
+
+
+
+# front end
+
+website that takes input and outputs validations
+
