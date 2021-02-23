@@ -1,0 +1,1 @@
+#coupons [coupon code, customer name, customer email, location of complaint, available balance, isActive,  initial balance, number of transactions, date of creation, average transaction, validating manager, comments ]
