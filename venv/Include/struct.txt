@@ -1,4 +1,4 @@
-abt 1M coupon codes
+abt 1M coupon codes  (about 800 000 built)
 
 input from user ->  arg[]
 
